@@ -1,8 +1,18 @@
 *{
     box-sizing: border-box;
 }
-
-
+.foto{
+    width:500px;
+    
+}
+.fotog{
+    width:500px;
+    
+}
+.fotom{
+    width:200px;
+    
+}
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
