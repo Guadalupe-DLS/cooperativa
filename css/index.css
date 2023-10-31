@@ -36,6 +36,32 @@ border-radius: 10px;
 box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
 
 }
+.rojo{
+    color:#e51c24;
+}
+.amarillo{
+    color: #ff0;
+}
+.azul{
+    color:#1b2884;
+}
+.naranja{
+    color:#f78d20
+}
+.violeta{
+color:#623259;
+}
+.verde{
+    color:#1fa812;
+}
+.celeste{
+    color:#099fec;
+}
+.marron{
+    color:#d47560;
+
+}
+
 button:hover {
     background-color: blue;
 }
@@ -67,6 +93,9 @@ header .nav{
     flex-direction: column;
     text-align: center;
 
+}
+.icono{
+    width: 50px;
 }
 
 header a{
