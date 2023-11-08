@@ -15,12 +15,12 @@ p{font-size: 1.25em;}
 ul{list-style: none;}
 li{ font-size: 1.25em;}
 
-
-
-
-.rojo{
-    background-color:#e51c24;
+.cajag{
+    height: 500;width: 500;
 }
+
+
+
 .rojo1:hover{
     color:#e51c24;
 }
@@ -38,8 +38,13 @@ li{ font-size: 1.25em;}
 .violeta1:hover{
     color:#623259;
 }
+.celeste1:hover{
+         color:#099fec
+}
 
-
+.rojo{
+    background-color:#e51c24;
+}
 .amarillo{
     background-color: #ff0;
 }
@@ -57,7 +62,7 @@ color:white
     background-color:#1fa812;
 }
 .celeste{
-    color:#099fec;
+    background-color:#099fec;
 }
 .marron{
     color:#d47560;
@@ -70,13 +75,13 @@ max-width: 1400px;
 margin: auto;
 }
 
-.color-acento{ color: #1b2884 }
+.color-acento{ color: #623259 }
 
 header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: royalblue; 
+    color: #623259; 
     font-size: 1.7em;
 }
 header .container{
@@ -109,6 +114,8 @@ header a{
     color: black;
     
 }
+
+
 /* header a:hover{
     color: blue;
 } */
@@ -121,16 +128,4 @@ header a{
 #info .container{
     text-align: center;
     padding: 200px 12px;
-}
-#Departamentos{
-    background-color: rgba(30, 30, 30);
-    color: white;
-    text-align: center;
-
-}
-#Departamentos .container{
-    padding: 100px 0px;
-}
-#Departamentos p{
-    display: none;
 }
