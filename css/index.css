@@ -19,7 +19,9 @@ li{ font-size: 1.25em;}
     height: 500;width: 500;
 }
 
-
+.negrita{
+    font-weight:bold
+}
 
 .rojo1:hover{
     color:#e51c24;
