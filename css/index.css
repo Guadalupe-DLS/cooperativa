@@ -122,6 +122,18 @@ header a{
     color: blue;
 } */
 
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,1);
+    box-shadow: 2px 2px 15px rgba(0,0,0,1);
+   background-color: aliceblue;
+}
+button:hover{
+    background-color: rgb(206, 208, 209);
+}
 
 
 #hero h1{
