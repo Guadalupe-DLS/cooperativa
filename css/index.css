@@ -8,7 +8,7 @@ body{
     margin: 0;
 }
 
-h1{font-size: 3.5em;}
+/* h1{font-size: 3.5em;} */
 h2{ font-size: 2.7em;}
 h3{font-size: 2em;}
 p{font-size: 1.25em;}
@@ -143,3 +143,68 @@ button:hover{
     text-align: center;
     padding: 200px 12px;
 }
+@media only screen and (max-width:600px){
+    section {
+        display: block;
+        width: 100%;
+        /* font-size: 16px; */
+    }
+    article{
+        display:inline-block;
+        width:100%;
+    }
+    #inicio{
+        width: 100%;
+        text-align: center;
+        font-size: 42px;
+    }
+    .icono1{
+        position: absolute;
+        right: 0%;
+    }
+    .icono2{
+        position: absolute;
+        right: 20%;
+        height=75%;
+    }
+    .icono3{
+        position: absolute;
+        right: 40%;
+    }
+    /* p {
+        background-color: red;
+    } */
+    h1{
+        font-size: 50%;  
+    }
+} 
+
+@media only screen and (min-width:600px){
+    section {
+        display: inline-block;
+        width: 48%;
+        font-size: 32px;
+    }
+    article{
+        display:inline-block;
+        width:100%;
+    }
+    h1{
+        font-size: 70%;  
+    }
+}
+
+@media only screen and (min-width:1000px){
+    section {
+        display: inline-block;
+        width: 33%;
+        font-size: 50px;
+    }
+    article{
+        display:inline-block;
+        width:100%;
+    }
+    h1{
+        font-size: 100%;  
+    }
+} 
