@@ -122,7 +122,7 @@ header a{
     color: blue;
 } */
 
-/*button{
+button{
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px 20px;
@@ -133,7 +133,7 @@ header a{
 }
 button:hover{
     background-color: rgb(206, 208, 209);
-} */
+} 
 
 
 #hero h1{
@@ -143,6 +143,7 @@ button:hover{
     text-align: center;
     padding: 200px 12px;
 }
+/*
 @media only screen and (max-width:600px){
     section {
         display: block;
@@ -217,3 +218,4 @@ button:hover{
         font-size: 100%;  
     }
 } 
+/*
