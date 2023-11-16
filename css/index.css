@@ -206,7 +206,8 @@ button:hover{
         width:100%;
     }
     h1{
-        font-size: 70%;  
+        font-size: 200%;  
+        text-align: center;
     }
 }
 
@@ -223,7 +224,8 @@ button:hover{
         width:100%;
     }
     h1{
-        font-size: 100%;  
+        font-size: 200%;  
+        text-align: center;
     }
     
 } 
