@@ -86,10 +86,13 @@ header .logo{
     color: #623259; 
     font-size: 1.7em;
 }
+
+
 header .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    image-orientation: center;
 }
 footer .container{
     display: flex;
