@@ -164,6 +164,7 @@ button:hover{
         text-align: center;
         font-size: 42px;
     }
+    /*
     .icono1{
         position: absolute;
         right: 0%;
@@ -218,4 +219,5 @@ button:hover{
     h1{
         font-size: 100%;  
     }
+    
 } 
