@@ -96,7 +96,7 @@ header .container{
 }
 footer .container{
     display: flex;
-    width: 80%;
+    width: 800%;
     flex-direction: row;
     align-content: center;
     align-items: center;
