@@ -1,8 +1,6 @@
 *{
     box-sizing: border-box;
 }
-
-
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
@@ -16,7 +14,43 @@ ul{list-style: none;}
 li{ font-size: 1.25em;}
 
 .cajag{
-    height: 500;width: 500;
+    height: 500px;
+    width: 500px;
+}
+.grilla{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.cajad2{
+    /* grid-column-start: 2;
+    grid-column-end: 3; */
+    /* display:grid; */
+    /* grid-area: section section section;
+    grid-template-rows: max-content; */
+    height: 1000px; 
+    /* justify-content: center; */ 
+    width: 500px;
+}
+.cajad1{
+    /* grid-column-start: 1;
+    grid-column-end: 2; */
+    /* display:grid; */
+    /* grid-area: section section section;
+    grid-template-rows: max-content; */
+    height: 1000px;
+    /* justify-content: center; */ 
+    width: 500px
+}
+.cajad3{
+    /* grid-column-start: 3;
+    grid-column-end: 4; */
+    /* display:grid; */
+    /* grid-area: section section section;
+    grid-template-rows: max-content; */
+    height: 1000px;
+    /* justify-content: center; */ 
+    width: 500px;
 }
 
 .negrita{
@@ -52,6 +86,7 @@ li{ font-size: 1.25em;}
 }
 .azul{
     background-color:#1b2884;
+    color:white;
 }
 .naranja{
     background-color:#f78d20
@@ -104,7 +139,7 @@ footer .container{
 
 header .nav{
     display: flex;
-    flex-direction: column;
+    flex-direction: raw;
     text-align: center;
 
 }
@@ -167,12 +202,13 @@ button:hover{
         text-align: center;
         font-size: 42px;
     }
+
     h1{
         font-size: 200%;  
         text-align: center;
     }
     
-    /*
+    
     .icono1{
         position: absolute;
         right: 0%;
@@ -186,9 +222,9 @@ button:hover{
         position: absolute;
         right: 40%;
     }
-    /* p {
+     p {
         background-color: red;
-    } */
+    } 
 
 
 } 
@@ -205,9 +241,23 @@ button:hover{
         text-align: center;
         width:100%;
     }
+    
     h1{
         font-size: 200%;  
         text-align: center;
+    }
+    .icono1{
+        position: absolute;
+        right: 0%;
+    }
+    .icono2{
+        position: absolute;
+        right: 10%;
+        height:75%;
+    }
+    .icono3{
+        position: absolute;
+        right: 30%;
     }
 }
 
@@ -226,6 +276,18 @@ button:hover{
     h1{
         font-size: 200%;  
         text-align: center;
+    } .icono1{
+        position: absolute;
+        right: 0%;
+    }
+    .icono2{
+        position: absolute;
+        right: 10%;
+        height:75%;
+    }
+    .icono3{
+        position: absolute;
+        right: 20%;
     }
     
 } 
