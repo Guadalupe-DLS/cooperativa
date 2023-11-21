@@ -52,7 +52,9 @@ li{ font-size: 1.25em;}
     /* justify-content: center; */ 
     width: 500px;
 }
-
+imga{
+   display: block; 
+} 
 .negrita{
     font-weight:bold
 }
